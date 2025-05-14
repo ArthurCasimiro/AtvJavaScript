@@ -1,0 +1,7 @@
+function dobrarPares(numeros) {
+     const pares = numeros.filter(num => num % 2 === 0);
+    const dobrados = pares.map(num => num * 2);
+    console.log(dobrados);
+ }
+
+    dobrarPares([1, 2, 3, 4, 5, 6]);

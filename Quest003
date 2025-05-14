@@ -1,0 +1,5 @@
+function ordenarArray(array) {
+    return array.sort();
+}
+
+console.log(ordenarArray(['banana', 'abacaxi', 'laranja', 'maçã', 'uva']));

@@ -1,0 +1,8 @@
+function calcularSoma(array) {
+    return array.reduce((acumulador, numeroAtual) => acumulador + numeroAtual, 0);
+}
+
+const numeros = [1, 2, 3, 4, 5];
+const soma = calcularSoma(numeros);
+console.log(soma);
+

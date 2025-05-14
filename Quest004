@@ -1,0 +1,17 @@
+const alunos = [
+    { nome: 'João', nota: 8 },
+    { nome: 'Maria', nota: 6 },
+    { nome: 'Pedro', nota: 7 },
+    { nome: 'Ana', nota: 5 }
+];
+
+function exibirAlunos(alunos) {
+    alunos.forEach(aluno => {
+        const nome = aluno.nome;
+        const nota = aluno.nota;
+        const situacao = nota >= 7 ? 'Aprovado' : 'Reprovado';
+        console.log(`Nome: ${nome}, Situação: ${situacao}`);
+    });
+}
+
+exibirAlunos(alunos);
